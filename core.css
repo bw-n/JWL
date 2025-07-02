@@ -83,7 +83,7 @@ body {
 /* 🧪 Filtres */
 #filters {
   text-align: center;
-  margin: 1em 0;
+  margin: 1em 0 30px;
 }
 
 #filters button {
