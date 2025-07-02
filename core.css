@@ -130,12 +130,15 @@ body {
   padding: 5px 8px;
   border-radius: 5px;
   font-size: 0.75em;
-  white-space: nowrap;
+  white-space: normal;          /* ✅ autorise retour à la ligne */
+  word-break: break-word;       /* ✅ casse les mots longs */
+  max-width: 120px;             /* ✅ limite la largeur pour éviter les débordements */
+  text-align: center;           /* ✅ garde une jolie disposition */
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
   box-shadow: 0 0 6px #00ffee55;
-  z-index: 20; /* un cran au-dessus pour éviter l’image */
+  z-index: 20;
 }
 
 /* 💬 Affichage au survol de la cellule */
