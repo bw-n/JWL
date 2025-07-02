@@ -130,10 +130,10 @@ body {
   padding: 5px 8px;
   border-radius: 5px;
   font-size: 0.75em;
-  white-space: normal;          /* ✅ autorise retour à la ligne */
-  word-break: break-word;       /* ✅ casse les mots longs */
-  max-width: 120px;             /* ✅ limite la largeur pour éviter les débordements */
-  text-align: center;           /* ✅ garde une jolie disposition */
+  white-space: pre-line;           /* ✅ autorise les retours à la ligne propres */
+  word-break: normal;              /* ✅ évite la découpe abusive des mots */
+  max-width: 160px;                /* ✅ un peu plus large pour les mots longs */
+  text-align: center;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
