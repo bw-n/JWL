@@ -12,6 +12,7 @@ body {
   background: transparent;
   overflow: hidden;
   font-family: sans-serif;
+  padding-top: 8px;
 }
 
 /* 🧱 Grille carrée en plein écran */
@@ -20,8 +21,8 @@ body {
   grid-template-columns: repeat(10, 1fr);
   grid-template-rows: repeat(10, 1fr);
   gap: 1px;
-  width: 100vmin;
-  height: 100vmin;
+  width: 94vmin;
+  height: 94vmin;
   margin: auto;
   background: #000;
 }
